@@ -1,4 +1,5 @@
-# WebsiteV2
-http://gperez.me Version 2
+# gperez.me V2
+New version of [gperez.me](http://gperez.me)
+
 
 Work in progress!
