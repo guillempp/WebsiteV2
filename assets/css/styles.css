@@ -16,14 +16,17 @@ Colors:
 }
 
 body{
+    height: 100%;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7;
     color: #777;
+
+
 }
 .header {
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient(to left bottom, #71f79f, 
     #15b097);
     background-size: cover;
@@ -52,10 +55,10 @@ body{
 
 .box{
     position: absolute;
-    top: 45%;
+    top: 15%;
     left: 50%;
     text-align: center;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 
 }
 .image{
@@ -63,7 +66,6 @@ body{
     height: 200px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
-
 
 
 
@@ -132,6 +134,7 @@ body{
     display: inline-block;
     border-radius: 100px;
     transition: all .2s;
+    margin-bottom: 10px;
 
 }
 
@@ -150,10 +153,9 @@ body{
     color: #777;
 }
 .social {
-    position: fixed;
-    bottom: 10px;
+    position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     text-align:center;
 
     
